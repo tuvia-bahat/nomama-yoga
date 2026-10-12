@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nomama Yoga — יוגה בשבילך בכל שלב בחיים שלך</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&amp;family=Rubik:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFF7F2}
+a{color:#A9533B}a:hover{color:#7E3A27}
+.nb{container-type:inline-size;direction:rtl;text-align:right}
+.nb *{box-sizing:border-box}
+.nb-links{display:none}
+.nb-burger{display:flex}
+.nb-h1{font-size:42px}
+.nb-h2{font-size:32px}
+.nb-sec{padding:64px 20px}
+.nb-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.nb-photo-tall{grid-row:span 2}
+.nb-split{display:grid;grid-template-columns:minmax(0,1fr);gap:36px}
+.nb-rot{display:inline-block;height:1.3em;line-height:1.3em;overflow:hidden;vertical-align:bottom}
+.nb-rot-list{display:flex;flex-direction:column;animation:nbRot 15s ease-in-out infinite}
+.nb-rot-list span{display:block;height:1.3em;line-height:1.3em;white-space:nowrap}
+@keyframes nbRot{0%,16%{transform:translateY(0)}20%,36%{transform:translateY(-1.3em)}40%,56%{transform:translateY(-2.6em)}60%,76%{transform:translateY(-3.9em)}80%,96%{transform:translateY(-5.2em)}100%{transform:translateY(-6.5em)}}
+.nb-cards{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 16px;margin:0 -20px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.nb-cards::-webkit-scrollbar{display:none}
+.nb-card{flex:0 0 84%;scroll-snap-align:center}
+.nb-pills{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+.nb-pills::-webkit-scrollbar{display:none}
+.nb-marquee{overflow:hidden;width:100%;direction:ltr}
+.nb-track{display:flex;width:max-content;direction:ltr;animation:nbScroll 45s linear infinite}
+.nb-track img{height:260px;width:auto;margin-right:12px;flex:0 0 auto}
+.nb-marquee:hover .nb-track{animation-play-state:paused}
+@keyframes nbScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion: reduce){.nb-track,.nb-rot-list{animation:none}}
+@container (min-width: 760px){
+.nb-links{display:flex}
+.nb-burger{display:none}
+.nb-h1{font-size:68px}
+.nb-h2{font-size:46px}
+.nb-sec{padding:104px 48px}
+.nb-photos{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.nb-photo-tall{grid-row:auto}
+.nb-split{grid-template-columns:repeat(2,minmax(0,1fr));align-items:center;gap:72px}
+.nb-cards{margin:0;padding:4px 0 16px}
+.nb-card{flex:0 0 calc((100% - 28px) / 2.3)}
+.nb-track img{height:340px;margin-right:16px}
+}
+@container (min-width: 1100px){
+.nb-card{flex:0 0 calc((100% - 42px) / 3.3)}
+}
+</style>
+
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+
+
+<div class="nb" dir="rtl" style="direction: rtl; width: 100%; background: #FFF7F2; color: #3A2629; font-family: 'Rubik', sans-serif; font-weight: 300; font-size: 17px; line-height: 1.7">
+
+<header style="max-width: 1240px; margin: 0 auto; padding: 18px 20px; display: flex; flex-direction: row-reverse; align-items: center; justify-content: space-between; gap: 24px">
+<a href="#top" dir="ltr" style="text-decoration: none; color: #3A2629; display: flex; align-items: center; gap: 10px">
+<span aria-hidden="true" style="width: 36px; height: 36px; border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%; background: #EFC7B8; display: inline-block"></span>
+<span style="font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 26px">nomama<span style="font-weight: 400; color: #A9533B"> yoga</span></span>
+</a>
+<nav class="nb-links" aria-label="ניווט ראשי" style="gap: 28px; align-items: center; font-size: 16px; font-weight: 400">
+<a href="#services" style="text-decoration: none; color: #3A2629">מה יש</a>
+<a href="#video" style="text-decoration: none; color: #3A2629">הצצה לשיעור</a>
+<a href="#about" style="text-decoration: none; color: #3A2629">נועם</a>
+<a href="#contact" style="text-decoration: none; color: #FFFFFF; background: #A9533B; padding: 10px 22px; border-radius: 999px; min-height: 44px; display: inline-flex; align-items: center; font-weight: 500">הרשמה</a>
+</nav>
+<button class="nb-burger" aria-label="פתיחת תפריט" style="width: 44px; height: 44px; border: none; background: #F7DFD2; border-radius: 999px; align-items: center; justify-content: center; color: #3A2629">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 9h14M10 15h9"></path></svg>
+</button>
+</header>
+
+<section id="top" style="max-width: 1240px; margin: 0 auto; padding: 32px 20px 64px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 22px">
+<h1 class="nb-h1" style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; line-height: 1.12; max-width: 820px">יוגה בשבילך<br>בכל שלב בחיים שלך</h1>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px">
+<span style="background: #F7DFD2; border-radius: 999px; padding: 6px 16px; font-weight: 400">בהריון</span>
+<span style="background: #EFC7B8; border-radius: 999px; padding: 6px 16px; font-weight: 400">בלידה</span>
+<span style="background: #F7DFD2; border-radius: 999px; padding: 6px 16px; font-weight: 400">עם הבייבי</span>
+<span style="background: #EFC7B8; border-radius: 999px; padding: 6px 16px; font-weight: 400">ובשגרה</span>
+</div>
+<p style="margin: 0; max-width: 560px; font-size: 19px; color: #6B5457">שיעורי יוגה וסדנאות לנשים ולאימהות בחופשת לידה. מקום בטוח לנוע ולנשום — לצד תשומת לב מלאה לתינוקות.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px">
+<a href="#services" style="text-decoration: none; background: #A9533B; color: #FFFFFF; padding: 14px 30px; border-radius: 999px; font-weight: 500; min-height: 50px; display: inline-flex; align-items: center">מצאי את השיעור שלך</a>
+<a href="https://wa.me/972545610516" style="text-decoration: none; background: #FFFFFF; color: #3A2629; padding: 14px 26px; border-radius: 999px; font-weight: 500; min-height: 50px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 0 0 1px #EFC7B8 inset">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12z"></path></svg>
+וואטסאפ</a>
+</div>
+<div class="nb-photos" style="width: 100%; margin-top: 24px">
+<img class="nb-photo-tall" src="img/p8.jpg" alt="אמא בתנוחת יוגה מעל תינוק מחייך" style="width: 100%; height: 100%; min-height: 300px; object-fit: cover; border-radius: 120px 120px 24px 24px; display: block">
+<img src="img/p6.jpg" alt="אמא ותינוק זוחלים יחד בסדנה" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; display: block">
+<img src="img/p5.jpg" alt="אימהות מרימות תינוקות בתרגול" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 24px 120px 24px 120px; display: block">
+<img class="nb-photo-tall" src="img/p3.jpg" alt="עיסוי כפות רגליים של תינוק" style="width: 100%; height: 100%; min-height: 300px; object-fit: cover; border-radius: 24px 24px 120px 120px; display: block">
+</div>
+</section>
+
+<section id="services" class="nb-sec" style="background: #F7DFD2; border-radius: 40px 40px 0 0; overflow: hidden">
+<div style="max-width: 1240px; margin: 0 auto">
+<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px">
+<h2 class="nb-h2" style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; line-height: 1.15">מה אפשר לעשות יחד</h2>
+<p style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 24px; color: #A9533B">מקום בטוח בשבילך <span class="nb-rot"><span class="nb-rot-list"><span>בהריון</span><span>אחרי הלידה</span><span>עם הבייבי</span><span>בלילות</span><span>בשגרה</span><span>בהריון</span></span></span></p>
+</div>
+<nav class="nb-pills" aria-label="קטגוריות" style="margin-bottom: 18px">
+<a href="#cat-pregnancy" style="flex: 0 0 auto; text-decoration: none; background: #FFF7F2; color: #3A2629; border-radius: 999px; padding: 10px 18px; min-height: 44px; display: inline-flex; align-items: center; font-weight: 400">בהריון</a>
+<a href="#cat-postpartum" style="flex: 0 0 auto; text-decoration: none; background: #FFF7F2; color: #3A2629; border-radius: 999px; padding: 10px 18px; min-height: 44px; display: inline-flex; align-items: center; font-weight: 400">אחרי הלידה</a>
+<a href="#cat-baby" style="flex: 0 0 auto; text-decoration: none; background: #FFF7F2; color: #3A2629; border-radius: 999px; padding: 10px 18px; min-height: 44px; display: inline-flex; align-items: center; font-weight: 400">עם הבייבי</a>
+<a href="#cat-sleep" style="flex: 0 0 auto; text-decoration: none; background: #FFF7F2; color: #3A2629; border-radius: 999px; padding: 10px 18px; min-height: 44px; display: inline-flex; align-items: center; font-weight: 400">שינה</a>
+<a href="#cat-routine" style="flex: 0 0 auto; text-decoration: none; background: #FFF7F2; color: #3A2629; border-radius: 999px; padding: 10px 18px; min-height: 44px; display: inline-flex; align-items: center; font-weight: 400">בשגרה</a>
+</nav>
+<div class="nb-cards">
+<article id="cat-pregnancy" class="nb-card" style="background: #FFF7F2; border-radius: 28px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/classposter.jpg" alt="נשים בשיעור יוגה במתיחה צידית" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 26px">בהריון</h3>
+<p style="margin: 0; color: #6B5457; font-size: 16px">לנשום, לנוע ולהתכונן ללידה בגוף שמשתנה.</p>
+<ul style="margin: 4px 0 0; padding: 0 18px 0 0; font-weight: 400; font-size: 16px">
+<li>שיעורי יוגה להריוניות</li>
+</ul>
+</div>
+</article>
+<article id="cat-postpartum" class="nb-card" style="background: #FFF7F2; border-radius: 28px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/p3.jpg" alt="עיסוי כפות רגליים של תינוק" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 26px">אחרי הלידה</h3>
+<p style="margin: 0; color: #6B5457; font-size: 16px">לחזור לגוף בעדינות, ולהרגיש בטוחה עם התינוק החדש.</p>
+<ul style="margin: 4px 0 0; padding: 0 18px 0 0; font-weight: 400; font-size: 16px">
+<li>יוגה לאחר לידה</li>
+<li>מפגש אישי להורים טריים — שנת תינוקות, עיסוי ובייבי יוגה</li>
+</ul>
+</div>
+</article>
+<article id="cat-baby" class="nb-card" style="background: #FFF7F2; border-radius: 28px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/p6.jpg" alt="אמא ותינוק בסדנת בייבי יוגה" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 26px">עם הבייבי</h3>
+<p style="margin: 0; color: #6B5457; font-size: 16px">תנועה, מגע ומשחק שתומכים בהתפתחות — ורגע גם בשבילך.</p>
+<ul style="margin: 4px 0 0; padding: 0 18px 0 0; font-weight: 400; font-size: 16px">
+<li>סדנת בייבי יוגה</li>
+<li>סדנת עיסוי תינוקות</li>
+<li>ריטריטים וסדנאות לאימהות בחל״ד</li>
+</ul>
+</div>
+</article>
+<article id="cat-sleep" class="nb-card" style="background: #FFF7F2; border-radius: 28px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/p7.jpg" alt="תינוקות שוכבים על מזרן רך" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 26px">שינה</h3>
+<p style="margin: 0; color: #6B5457; font-size: 16px">לילות רגועים יותר, בגישה שמכבדת את הקשר ביניכם.</p>
+<ul style="margin: 4px 0 0; padding: 0 18px 0 0; font-weight: 400; font-size: 16px">
+<li>ייעוץ שינה בגישה ההיקשרותית</li>
+<li>הרצאות על שנת תינוקות והגישה ההיקשרותית</li>
+</ul>
+</div>
+</article>
+<article id="cat-routine" class="nb-card" style="background: #A9533B; color: #FFFFFF; border-radius: 28px; overflow: hidden; display: flex; flex-direction: column">
+<img src="img/p1.jpg" alt="הסטודיו מוכן לשיעור" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 26px">בשגרה</h3>
+<p style="margin: 0; color: #FBE7DE; font-size: 16px">זמן קבוע לעצמך — לנשום, להתחזק ולהתרכך.</p>
+<ul style="margin: 4px 0 0; padding: 0 18px 0 0; font-weight: 400; font-size: 16px">
+<li>שיעורי יוגה לנשים</li>
+<li>שיעור יוגה פרטי / זוגי</li>
+<li>סדנאות וריטריטים ביוגה</li>
+</ul>
+</div>
+</article>
+</div>
+<p style="margin: 8px 0 0; font-size: 14px; color: #6B5457; display: flex; align-items: center; gap: 6px">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg>
+החליקי לקטגוריות נוספות</p>
+</div>
+</section>
+
+<section id="video" class="nb-sec" style="background: #F7DFD2; padding-top: 0">
+<div style="max-width: 1240px; margin: 0 auto" class="nb-split">
+<video src="img/class.mp4" poster="img/classposter.jpg" autoplay="" muted="" loop="" playsinline="" aria-label="סרטון קצר משיעור יוגה לנשים" style="width: 100%; max-width: 380px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 160px 160px 32px 32px; display: block; justify-self: center; background: #EFC7B8"></video>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 class="nb-h2" style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; line-height: 1.15">הצצה לשיעור</h2>
+<p style="margin: 0; color: #6B5457">תנועה רכה, נשימה וחיבור לגוף — בקצב שלך. השיעורים פתוחים לכל הרמות, ומתאימים את עצמם לשלב שבו את נמצאת.</p>
+<div><a href="https://wa.me/972545610516" style="text-decoration: none; background: #3A2629; color: #FFFFFF; padding: 14px 28px; border-radius: 999px; font-weight: 500; min-height: 50px; display: inline-flex; align-items: center">שריינו לי מקום</a></div>
+</div>
+</div>
+</section>
+
+<section id="about" class="nb-sec">
+<div style="max-width: 1240px; margin: 0 auto" class="nb-split">
+<div style="position: relative; justify-self: center; width: 100%; max-width: 480px">
+<div aria-hidden="true" style="position: absolute; inset: 24px -16px -16px 24px; background: #EFC7B8; border-radius: 58% 42% 50% 50% / 45% 55% 45% 55%"></div>
+<img src="img/p11.jpg" alt="נועם עם תינוקת" style="position: relative; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 50% 50% 40% 60% / 40% 45% 55% 60%; display: block">
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 class="nb-h2" style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; line-height: 1.15">נעים מאוד, אני נועם</h2>
+<p style="margin: 0">אמא לאוריקי ואלה ונשואה לעומר. מתגוררת כיום במושב גינתון. מורה ליוגה משנת 2019. כשעולם האימהות נפתח לפניי באופן טבעי, עניין אותי המפגש עם אימהות ותינוקות.</p>
+<p style="margin: 0">בסדנאות שאני מעבירה לאימהות משמעותי לי לתת להן מקום בטוח, ורגע לנוע בעצמן ולנשום לצד תשומת הלב לתינוקות. אני מלמדת את האימהות והתינוקות תרגילי בייבי יוגה ועיסוי תינוקות שתומכים בהתפתחות התינוקות בצורה מופלאה וכיפית.</p>
+<p style="margin: 0; color: #6B5457; font-size: 15px">הכשרות: אשטנגה ויניאסה יוגה · יוגה תרפיה · יוגה הריון ולאחר לידה · בייבי יוגה · עיסוי תינוקות · ייעוץ שינה בגישה ההיקשרותית</p>
+<div style="background: #F7DFD2; border-radius: 28px; padding: 24px 28px; margin-top: 6px">
+<p style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 23px; line-height: 1.4; color: #7E3A27">אני פה בשבילך בגובה העיניים, אישה לאישה, כאמא לאמא.</p>
+<p style="margin: 8px 0 0; color: #6B5457; font-size: 15px">אוהבת להכיר ולתת לך מקום בטוח — קודם כל לעצמך, ובסדנאות גם עם הבייבי שלך.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding: 0 20px">
+<div style="max-width: 1240px; margin: 0 auto; position: relative; border-radius: 40px; overflow: hidden; min-height: 520px; display: flex; align-items: flex-end">
+<img src="img/p10.jpg" alt="ערסל בגינה במקום הריטריט" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+<div style="position: relative; margin: 20px; background: #FFF7F2; border-radius: 28px; padding: 26px 28px; max-width: 460px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-size: 13px; font-weight: 500; color: #6F7446">ריטריט לאימהות בחופשת לידה</span>
+<h2 style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; font-size: 30px; line-height: 1.2">בוקר שלם רק בשבילך (והבייבי)</h2>
+<p style="margin: 0; color: #6B5457; font-size: 16px">יוגה, בייבי יוגה ועיסוי תינוקות, ארוחה טובה בגינה ומעגל של אימהות.</p>
+<div><a href="https://wa.me/972545610516" style="text-decoration: none; background: #A9533B; color: #FFFFFF; padding: 12px 26px; border-radius: 999px; font-weight: 500; min-height: 48px; display: inline-flex; align-items: center">לפרטים</a></div>
+</div>
+</div>
+</section>
+
+<section class="nb-sec" style="padding-left: 0; padding-right: 0">
+<h2 class="nb-h2" style="max-width: 1240px; margin: 0 auto 24px; padding: 0 20px; font-family: 'Fredoka', sans-serif; font-weight: 500">מהסדנאות</h2>
+<div class="nb-marquee">
+<div class="nb-track">
+<img src="img/p4.jpg" alt="מעגל אימהות ותינוקות" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p7.jpg" alt="תינוקות על מזרן צבעוני" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p9.jpg" alt="ארוחת בוקר בריטריט" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p5.jpg" alt="אימהות מרימות תינוקות בתרגול" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p1.jpg" alt="הסטודיו מוכן לשיעור" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p2.jpg" alt="כרית ושקית בד ממותגת" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p4.jpg" alt="" aria-hidden="true" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p7.jpg" alt="" aria-hidden="true" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p9.jpg" alt="" aria-hidden="true" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p5.jpg" alt="" aria-hidden="true" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p1.jpg" alt="" aria-hidden="true" style="object-fit: cover; border-radius: 28px; display: block">
+<img src="img/p2.jpg" alt="" aria-hidden="true" style="object-fit: cover; border-radius: 28px; display: block">
+</div>
+</div>
+</section>
+
+<section id="contact" style="background: #A9533B; color: #FFFFFF; border-radius: 40px 40px 0 0; padding: 64px 20px 40px">
+<div style="max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 18px">
+<h2 class="nb-h2" style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 500; line-height: 1.15">רוצה להצטרף? בואי נדבר</h2>
+<p style="margin: 0; color: #FBE7DE; max-width: 520px">שלחי לי הודעה ונמצא יחד את השיעור, הסדנה או המפגש שמתאימים לך ולבייבי.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px">
+<a href="https://wa.me/972545610516" style="text-decoration: none; background: #FFF7F2; color: #3A2629; padding: 14px 28px; border-radius: 999px; font-weight: 500; min-height: 50px; display: inline-flex; align-items: center; gap: 8px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12z"></path></svg>
+וואטסאפ</a>
+<a href="https://www.instagram.com/nomama_yoga" style="text-decoration: none; color: #FFFFFF; padding: 14px 28px; border-radius: 999px; font-weight: 500; min-height: 50px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 0 0 1px #FBE7DE inset">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.6"></circle></svg>
+אינסטגרם</a>
+</div>
+<p style="margin: 8px 0 0; color: #FBE7DE; font-size: 15px"><a href="tel:0545610516" dir="ltr" style="color: #FFFFFF">054-561-0516</a> · <a href="https://www.instagram.com/nomama_yoga" dir="ltr" style="color: #FFFFFF">@nomama_yoga</a></p>
+<div dir="ltr" style="margin-top: 40px; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 22px">nomama yoga</div>
+</div>
+</section>
+
+</div>
+
+</body>
+</html>
