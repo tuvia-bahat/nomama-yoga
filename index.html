@@ -55,7 +55,7 @@ h2.hand{font-size:46px}
 .btn-line:hover{background:rgba(255,255,255,.35);color:var(--ink)}
 
 /* curves between sections */
-.curve{display:block;width:100%;height:46px;margin-bottom:-1px}
+.curve{display:block;width:100%;height:46px;margin-bottom:-1px;position:relative;transform:translateY(1px)}
 
 /* header */
 .nb-head{position:absolute;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;justify-content:flex-end;padding:16px 20px}
@@ -65,7 +65,7 @@ h2.hand{font-size:46px}
 .nb-burger{display:flex;width:46px;height:46px;border:none;border-radius:999px;background:rgba(253,246,242,.7);color:var(--ink);align-items:center;justify-content:center;cursor:pointer}
 
 /* hero */
-.hero{position:relative;background:var(--rose) var(--dots-cream);background-size:190px;text-align:center;padding:26px 0 0}
+.hero{position:relative;overflow:hidden;background:var(--rose) var(--dots-cream);background-size:190px;text-align:center;padding:26px 0 0}
 .hero-in{display:flex;flex-direction:column;align-items:center;gap:18px;padding-bottom:34px}
 .hero-logo{width:210px;height:210px;display:block;margin-bottom:-14px}
 .hero p.lead{max-width:540px;font-size:19px;color:var(--ink)}
@@ -269,7 +269,7 @@ h2.hand{font-size:62px}
 </section>
 
 <svg class="curve" viewBox="0 0 1440 84" preserveAspectRatio="none" aria-hidden="true"><path fill="#F6E1E8" d="M0 30c230 50 520 60 800 26 250-30 440-40 640 4v24H0z"></path></svg>
-<section id="services" class="band">
+<section id="services" class="band" style="overflow:hidden">
 <div class="wrap services">
 <div class="sec-head rv">
 <span class="eyebrow">Classes &amp; workshops</span>
